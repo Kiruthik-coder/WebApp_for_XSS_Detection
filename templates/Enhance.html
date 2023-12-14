@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>215</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style_caption.css') }}">
+</head>
+<body>
+    <header>
+            <nav class="navbar">
+                <a href="/" class = "nav_lk" style="padding-left: 15px;">Home</a>
+                <a href="/about" class = "nav_lk">About</a>
+                <a href="/services" class = "nav_lk">Services</a>
+                <a href="/team" class = "nav_lk">Team</a>
+                <a href="/description" class = "nav_lk">Description</a>
+                <a href="/contact" class = "nav_lk">Contact</a>
+            </nav>
+    </header>
+
+  <div id="bod">
+    <form action="/enhance" method="post" enctype="multipart/form-data">
+        <h2 id = "head">Drag and drop a file or select add Image</h2>
+        <div align="center"><input type="file" name="image" required id="img_up_bt"></div><br>
+
+        <div align="center"><input type="submit" value="Enhance Image" id = "sub_bt"></div>
+    </form>
+    <div align="center">
+      <h2 id = "cap_hd"><U>Enhanced Image</U></h2>
+      <div id = "cap_div">
+          <table>
+            <tr>
+              <td>
+                 <img src="data:image/png;base64,{{ up_image }}" alt="uploaded Image" width="520px" height="420px" style="margin-right: 20px">
+              </td>
+              <td>
+                <img src="data:image/png;base64,{{ enhanced_image }}" alt="Enhanced Image" width="520px" height="420px">
+              </td>
+            </tr>
+          </table>
+      </div>
+  </div>
+  </div>
+</body>
+</html>

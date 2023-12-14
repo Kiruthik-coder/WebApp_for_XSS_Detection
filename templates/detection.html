@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>ISAA</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style_caption.css') }}">
+</head>
+<body>
+    <header>
+            <nav class="navbar">
+                <a href="/" class = "nav_lk" style="padding-left: 15px;">Home</a>
+                <a href="/about" class = "nav_lk">About</a>
+                <a href="/services" class = "nav_lk">Services</a>
+                <a href="/team" class = "nav_lk">Team</a>
+                <a href="/description" class = "nav_lk">Description</a>
+                <a href="/contact" class = "nav_lk">Contact</a>
+            </nav>
+    </header>
+
+
+  <div align="center">
+      <h2 id = "cap_hd"><U>Scan Completed - Results</U></h2>
+      <h3 id = "cap_show8" style="color: #006bcd">{{ gurl }}</h3></td>
+  <div id = "cap_div">
+      <table align="center">
+          <tr>
+              <td><h3 style="color: seagreen">Model 1 Result:</h3></td>
+              <td><h3 id = "cap_show1">{{ m1 }}</h3></td>
+          </tr>
+          <tr>
+             <td> <h3 style="color: seagreen">Model 2 Result:</h3></td>
+             <td> <h3 id = "cap_show2">{{ m2 }}</h3></td>
+          </tr>
+          <tr>
+              <td><h3 style="color: seagreen">Model 3 Result:</h3></td>
+              <td><h3 id = "cap_show3">{{ m3 }}</h3></td>
+          </tr>
+          <tr>
+              <td><h3 style="color: seagreen">Model 4 Result:</h3></td>
+              <td><h3 id = "cap_show4">{{ m4 }}</h3></td>
+          </tr>
+          <tr>
+              <td><h3 style="color: seagreen">Model 5 Result:</h3></td>
+              <td><h3 id = "cap_show5">{{ m5 }}</h3></td>
+          </tr>
+          <tr>
+              <td><h3 style="color: seagreen">Model 6 Result:</h3></td>
+              <td><h3 id = "cap_show6">{{ m6 }}</h3></td>
+          </tr>
+          <tr>
+              <td colspan="2"><h3 style="color: royalblue">Results - Based on Detection Score: {{ scr }}</h3>
+              <h3 id = "cap_show7">{{ predictions }}</h3></td>
+          </tr>
+      </table>
+  </div>
+
+  </div>
+</div>
+
+</body>
+</html>
