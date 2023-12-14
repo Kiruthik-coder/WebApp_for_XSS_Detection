@@ -1,0 +1,130 @@
+
+body {
+
+}
+
+#head {
+    text-align: center;
+    margin-top: 50px;
+    padding-top: 50px;
+    font-family: "Lucida Grande", serif;
+}
+
+#img_up_bt {
+    font-family: "Lucida Grande", serif;
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+#sub_bt {
+    font-family: "Lucida Grande", serif;
+    text-align: center;
+    margin-top: 50px;
+    padding: 20px 15px;
+    background-color: rgba(225,225,225, 0.5);
+    border-color: rgba(225,225,225, 0.5);
+    border-radius: 8px;
+    font-weight: lighter;
+    font-size: 25px;
+}
+#Abt_bd {
+    background-color: rgba(225,225,225, 0.5);
+    padding-bottom: 400px;
+    margin-right: 100px;
+    margin-left: 100px;
+    margin-top: 100px;
+}
+
+#cap_hd {
+    font-family: "Lucida Grande", serif;
+    margin-top: 30px;
+}
+
+#cap_show {
+    font-family: "Lucida Console", serif;
+    margin-top: 10px;
+}
+
+#cap_div {
+   /* background-color: rgba(225,225,225, 0.8);*/
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+#opts {
+    font-family: "Lucida Grande", serif;
+    margin-top: 10px;
+    font-size: 15px;
+}
+
+.drp {
+    width: 100px;
+    height: 15px;
+}
+
+#bod {
+    margin: 10px 50px 20px;
+    background-color: rgba(225,225,225, 0.5);;
+    padding-bottom: 300px;
+}
+
+.nav_lk {
+    text-decoration: none;
+    margin-right: 30px;
+    font-family: "Lucida Grande", serif;
+    color: white;
+    font-size: 15px;
+    padding: 10px;
+}
+
+.navbar {
+    background-color: black;
+    padding-bottom: 10px;
+    padding-top: 10px;
+
+}
+
+h3 {
+    font-family: "Lucida Grande", serif;
+}
+
+  table {
+    border-collapse: collapse;
+    width: 80%;
+    margin: 20px auto;
+  }
+
+  th, td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+  }
+
+  th {
+    background-color: #3498db;
+    color: white;
+  }
+
+  tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+
+  tr:hover {
+    background-color: #e0e0e0;
+  }
+
+.nav_lk:hover {
+    background-color: darkgray;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    font-family: "Lucida Grande", serif;
+}
+
+footer p {
+    margin: 0;
+}

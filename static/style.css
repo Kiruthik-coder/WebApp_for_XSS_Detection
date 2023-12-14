@@ -1,0 +1,84 @@
+
+body {
+    background-image: url("Home_bck.jpg");
+}
+
+#Head {
+    text-align: center;
+    font-family: "Lucida Grande", serif;
+    margin-top: 100px;
+}
+
+.rounded-button {
+    background-color: #006bcd;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    padding: 10px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 10px;
+    cursor: pointer;
+  }
+
+#div_1 {
+    margin-top: 50px;
+}
+
+#cap_bt {
+    font-family: "Lucida Grande", serif;
+    text-align: center;
+    padding: 100px 50px;
+    font-size: 25px;
+    background-color: rgba(225,225,225, 0.5);
+    border-color: rgba(225,225,225, 0.5);
+    border-radius: 8px;
+    font-weight: lighter;
+}
+
+#cap_bt:hover {
+    opacity: 1
+}
+
+#edt_bt {
+    font-family: "Lucida Grande", serif;
+    text-align: center;
+    padding: 100px 50px;
+    font-size: 25px;
+    margin-left: 100px;
+    background-color: rgba(225,225,225, 0.5);
+    border-color: rgba(225,225,225, 0.5);
+    border-radius: 8px;
+    font-weight: lighter;
+}
+
+.nav_lk {
+    text-decoration: none;
+    margin-right: 30px;
+    font-family: "Lucida Grande", serif;
+    color: white;
+    font-size: 15px;
+    padding: 10px;
+}
+
+.navbar {
+    background-color: black;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.nav_lk:hover {
+    background-color: darkgray;
+}
+
+.about-content {
+    margin-top: 50px;
+    max-width: 800px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    font-family: "Lucida Grande", serif;
+}
