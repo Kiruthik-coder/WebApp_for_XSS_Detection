@@ -9,6 +9,10 @@
   <li>ML Models</li>
 </ul>
 
+## ML Models Accuracy:
+
+<img width="505" alt="image" src="https://github.com/Kiruthik-coder/WebApp_for_XSS_Detection/assets/76081690/961840ec-23e7-4b52-98bd-0dae87252d3e">
+
 ## Application Interface:
 
 <img width="600" alt="image" src="https://github.com/Kiruthik-coder/WebApp_for_XSS_Detection/assets/76081690/3016e6ae-c1e4-4812-be37-be9d4282c86c">
@@ -16,10 +20,6 @@
 <img width="600" alt="image" src="https://github.com/Kiruthik-coder/WebApp_for_XSS_Detection/assets/76081690/eafc18fa-ac03-41b6-8b15-6a47b58d390b">
 
 <img width="600" alt="image" src="https://github.com/Kiruthik-coder/WebApp_for_XSS_Detection/assets/76081690/b4974461-2ade-45b0-bf1d-060b3760c2b6">
-
-## ML Models Accuracy:
-
-<img width="505" alt="image" src="https://github.com/Kiruthik-coder/WebApp_for_XSS_Detection/assets/76081690/961840ec-23e7-4b52-98bd-0dae87252d3e">
 
 ## Contact:
 
